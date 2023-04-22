@@ -150,7 +150,7 @@ class DoublyList {
         }
         let current = this.head;
         let i = 0;
-        while (i <= index) {
+        while (i < index) {
             current = current.next;
             i++;
         }
